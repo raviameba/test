@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Selfii - Home</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	<link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">
+
+  </head>
+  <body">
+    <header class="pb10">
+		  <div class="container">			
+			<a class="logo" href="#">Selfii</a>		  
+			  <ul class="nav navbar-nav navbar-right h-menu">
+				<li class="cart-icon"><a href="#"><img src="images/cart.svg"> </a></li>
+				<li class="signin profile-icon"><a href="#"><img src="images/profile.png"> Eva Watson </a></li>				
+			  </ul>
+		  </div><!-- /.container -->
+	</header>
+	<section class="cart-detail">
+	<div class="container">
+	<div class="tile-header">Card Information</div>
+	 
+	  
+	<form class="cart-info">
+ <div class="row">
+ <div class="col-md-6 col-sm-6 col-xs-12">
+  <div class="form-group">	
+    <label for="exampleInputEmail1">Card Number</label>	
+	<div class="card-image">
+	<img src="images/mc.png">
+	<img src="images/visa.png">
+	</div>
+    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Card Number">
+	
+  </div>
+ </div>
+  <div class="col-md-6 col-sm-6 col-xs-12">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Card Holder</label>
+    <input type="text" class="form-control holder" id="exampleInputEmail1" placeholder="Name">
+  </div>
+ </div>
+</div>
+
+ <div class="row mt50">
+ <div class="col-md-6 col-sm-6 col-xs-12">
+ <div class="row">
+  <div class="col-md-6 col-sm-6 col-xs-12">
+    <div class="form-group expire-date">	
+    <label for="exampleInputEmail1">Expiry Month</label>	
+	<div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Month
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+	
+  </div>
+   </div>
+    <div class="col-md-6 col-sm-6 col-xs-12">
+    <div class="form-group expire-date">	
+    <label for="exampleInputEmail1">Expiry Year</label>	
+	<div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Year
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+	
+  </div>
+   </div>
+  </div>
+ </div>
+  <div class="col-md-6 col-sm-6 col-xs-12">
+  <div class="form-group">
+    <label for="exampleInputEmail1">CVV</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="CVV">
+  </div>
+ </div>
+</div>
+  <div class="subtotal-part">
+  <div class="subtotal">Subtotal (5 images)</div>
+  <div class="subtotal-price">50€</div>
+  </div>
+  <div class="home-del-part">
+  <div class="home-delivery">Home Delivery Cost</div>
+  <div class="h-del-price">2€</div>
+  </div>
+   <div class="total-part">
+  <div class="total-amt">TOTAL AMOUNT</div>
+  <div class="total-price">52€</div>
+  </div>
+  <button type="submit" class="btn btn-default checkout-btn">Checkout</button>
+  
+</form>
+
+	</div>
+	</section>
+	<footer class="mt50">
+		<div class="container">
+		<ul class="nav navbar-nav cont-info">
+			<li><a href="#">Contact Us</a></li>			
+		</ul>
+		
+		<ul class="nav navbar-nav navbar-right cont-info">
+			<li class="fb"><a href="#"><img src="images/fb.svg"> </a></li>	
+			<li class="instagram"><a href="#"><img src="images/insta.svg"> </a></li>	
+			<li class="pinterst"><a href="#"><img src="images/pin.svg"> </a></li>
+		</ul>
+		</div>
+	</footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </body>
+</html>
